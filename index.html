@@ -443,6 +443,22 @@
             </li>
           </ul>
         </div>
+        <div class="mailing-container">
+          <h2>ПОДПИШИТЕСЬ НА РАCСЫЛКУ</h2>
+          <form class="form">
+            <div class="form-field">
+              <label class="mailing-label">
+                <input class="mail-input" type="email" name="mail" placeholder="E-mail" />
+              </label>
+              <button class="mailing-button" type="submit">
+                <p>Подписаться</p>
+                <svg class="mailing-button-icon">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <!--Модальне вікно-->
@@ -453,6 +469,33 @@
             <use href="./images/sprite.svg#icon-Vector"></use>
           </svg>
         </button>
+        <form>
+          <div class="modal-form-field">
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name"/>
+          </div>
+    
+          <div class="modal-form-field">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel" placeholder="+30**-000-00-00" />
+          </div>
+    
+          <div class="modal-form-field">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail" placeholder="my@mail.com" />
+          </div>
+
+          <div class="modal-form-field">
+            <label for="comment">Коментарий</label>
+            <textarea
+              class="comment"
+              name="comment"
+              id="comment"
+              rows="6"
+              placeholder="Уточните детали доклада"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./modal.js"></script>
