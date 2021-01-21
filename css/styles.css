@@ -438,7 +438,7 @@ footer {
     top: 50%;
     left: 50%;
     width: 528px;
-    height: 581px;
+    height: 610px;
     padding: 40px;
     background: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -542,6 +542,18 @@ footer {
     line-height: 1.7;
 }
 
+.agree {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.agree a {
+    color: var(--accent-color);
+} 
+
 .custom-icon {
     content: " ";
     height: 16px;
@@ -549,6 +561,8 @@ footer {
     display: inline-block;
     border:1px solid var(--title-text-color);
     border-radius: 2px;
+    margin-right: 8px;
+    margin-top: 4px;
 }
 
 .check-icon {
@@ -588,7 +602,5 @@ footer {
     background-color: var(--primary-white-color);
 }
 
-.agree a {
-    color: var(--accent-color);
-} 
+
 
